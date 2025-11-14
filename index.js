@@ -23,6 +23,6 @@ export default {
     const second = secondWords[Math.floor(Math.random() * secondWords.length)];
     const third = thirdWords[Math.floor(Math.random() * thirdWords.length)];
 
-    return Response.json({ name: `${first}${second} ${third}` });
+    return Response.json({ company_name: `${first}${second} ${third}` });
   }
 }
